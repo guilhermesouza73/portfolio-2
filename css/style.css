@@ -128,6 +128,22 @@ body {
 
 .animais-descricao {
   grid-column: 3;
+  height: 370px;
+  overflow-y: scroll;
+}
+
+.animais-descricao::-webkit-scrollbar {
+  width: 18px;
+}
+
+.animais-descricao::-webkit-scrollbar-thumb {
+  background: #fb5;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+.animais-descricao::-webkit-scrollbar-track {
+  background: #faf6ed;
 }
 
 .animais-descricao section {
